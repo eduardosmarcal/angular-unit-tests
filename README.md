@@ -15,7 +15,7 @@
 
 ## xit
 
-**disabled** if. Same rules as `xdescribe`.
+**disabled** it. Same rules as `xdescribe`.
 
 ## Executing a single test file
 
