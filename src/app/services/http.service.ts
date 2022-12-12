@@ -46,15 +46,15 @@ export class HttpService {
     return this.http.put<User>(`${this.url}/users/${id}`, user);
   }
 
-  deleteUser(id: number): Observable<User> {
-    return this.http.delete<User>(`${this.url}/users/${id}`);
+  deleteUser(id: number): Observable<number> {
+    return this.http.delete<number>(`${this.url}/users/${id}`);
   }
 
   getUserWithHeaders(): Observable<User[]> {
     const token: string = 'wa45a5a45a5a5a4a5a4a5a55a5a5a5a5a5a5a';
     const headers = new HttpHeaders()
       .set('content-type', 'application/json')
-      .set('Authorization', `Bearer ${token}`);
+      .set('authorization', `Bearer ${token}`);
 
     return this.http.get<User[]>(`${this.url}/users`, { headers });
   }

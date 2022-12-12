@@ -22,3 +22,9 @@
 ```shell
 ng test --include **/<spec-filename>
 ```
+
+## Code coverage
+
+```shell
+ng test --code-coverage
+```

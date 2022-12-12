@@ -1,0 +1,21 @@
+<h1>Testing Asynchronous Behaviors</h1>
+
+<ul>
+  <li>Subscribe</li>
+  <li>Promise</li>
+  <li>Async</li>
+  <li>Done</li>
+  <li>FakeAsync</li>
+  <li>whenStable</li>
+</ul>
+
+<button (click)="getUsers()">Make Asynchronous Request - Subscribe</button>
+<button (click)="getUsersWithPromise()">Make Asynchronous Request - Promise</button>
+
+<br>
+<br>
+
+<div *ngIf="isLogged" class="logged">Logged</div>
+<div *ngIf="!isLogged" class="logged-out">Logged Out</div>
+
+<button (click)="isAuthenticated()">Login</button>

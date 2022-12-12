@@ -12,10 +12,21 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { StatementComponent } from './components/statement/statement.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { MockComponent } from './components/mock/mock.component';
 import { StubComponent } from './components/stub/stub.component';
 import { DebuggerTestsComponent } from './components/debugger-tests/debugger-tests.component';
 import { HoverFocusDirective } from './directives/hover-focus.directive';
 import { HttpPipe } from './pipes/http.pipe';
+import { MatchersJasmineComponent } from './components/matchers-jasmine/matchers-jasmine.component';
+import { SpyOnComponent } from './components/spy-on/spy-on.component';
+import { RequestComponent } from './components/request/request.component';
+import { AsynchronousComponent } from './components/asynchronous/asynchronous.component';
+import { TestComponent } from './components/test/test.component';
+import { FixtureDetectChangeComponent } from './components/fixture-detect-change/fixture-detect-change.component';
+import { AutoDetectChangeComponent } from './components/auto-detect-change/auto-detect-change.component';
+import { HandleEventComponent } from './components/handle-event/handle-event.component';
+import { FillFormComponent } from './components/fill-form/fill-form.component';
+import { InputOutputComponent } from './components/input-output/input-output.component';
 
 @NgModule({
   declarations: [
@@ -27,8 +38,19 @@ import { HttpPipe } from './pipes/http.pipe';
     DashboardComponent,
     HoverFocusDirective,
     HttpPipe,
+    MockComponent,
     StubComponent,
-    DebuggerTestsComponent
+    DebuggerTestsComponent,
+    MatchersJasmineComponent,
+    SpyOnComponent,
+    RequestComponent,
+    AsynchronousComponent,
+    TestComponent,
+    FixtureDetectChangeComponent,
+    AutoDetectChangeComponent,
+    HandleEventComponent,
+    FillFormComponent,
+    InputOutputComponent,
   ],
   imports: [
     BrowserModule,

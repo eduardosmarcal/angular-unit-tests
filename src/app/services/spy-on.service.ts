@@ -6,7 +6,7 @@ import { User } from '../interfaces/user.interface';
 @Injectable({
   providedIn: 'root'
 })
-export class SpyonServiceService {
+export class SpyOnService {
   private readonly url: string = 'http://localhost:3000';
 
   constructor(private http: HttpClient) {}
