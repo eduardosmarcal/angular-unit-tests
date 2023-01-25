@@ -22,6 +22,9 @@ import { AutoDetectChangeComponent } from './components/auto-detect-change/auto-
 import { HandleEventComponent } from './components/handle-event/handle-event.component';
 import { FillFormComponent } from './components/fill-form/fill-form.component';
 import { InputOutputComponent } from './components/input-output/input-output.component';
+import { TestingRouteComponent } from './components/testing-route/testing-route.component';
+import { TestingDirectiveComponent } from './components/testing-directive/testing-directive.component';
+import { FormLoginComponent } from './components/form-login/form-login.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -52,7 +55,10 @@ describe('AppComponent', () => {
         AutoDetectChangeComponent,
         HandleEventComponent,
         FillFormComponent,
-        InputOutputComponent
+        InputOutputComponent,
+        TestingRouteComponent,
+        TestingDirectiveComponent,
+        FormLoginComponent
       ],
     }).compileComponents();
   });

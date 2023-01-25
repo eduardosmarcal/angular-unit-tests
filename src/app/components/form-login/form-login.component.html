@@ -1,0 +1,14 @@
+<h2>Testing if the form is valid</h2>
+<form action="" [formGroup]="form">
+  <input type="text" formControlName="email" placeholder="Enter the email">
+  <br>
+  <br>
+  <input type="password" formControlName="password" placeholder="Enter the password">
+  <br>
+  <br>
+  <button type="submit" [disabled]="form.invalid" (click)="login()">Login</button>
+</form>
+
+
+<button (click)="onClick()">Check Status</button>
+
